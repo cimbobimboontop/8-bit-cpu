@@ -328,13 +328,11 @@
       <a name="facing" val="north"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="1" loc="(3800,3690)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
     <comp lib="1" loc="(3820,3840)" name="Controlled Buffer">
       <a name="control" val="left"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="1" loc="(3830,3670)" name="NOT Gate"/>
     <comp lib="1" loc="(3850,2070)" name="OR Gate"/>
     <comp lib="1" loc="(4190,3020)" name="AND Gate"/>
     <comp lib="1" loc="(4190,3080)" name="AND Gate"/>
@@ -357,10 +355,6 @@
     <comp lib="1" loc="(4350,3380)" name="XOR Gate"/>
     <comp lib="1" loc="(4350,3440)" name="XOR Gate"/>
     <comp lib="1" loc="(4400,3580)" name="Controlled Buffer">
-      <a name="facing" val="south"/>
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="1" loc="(4400,3810)" name="Controlled Buffer">
       <a name="facing" val="south"/>
       <a name="width" val="8"/>
     </comp>
@@ -1172,13 +1166,13 @@
     <wire from="(3790,1810)" to="(3790,2050)"/>
     <wire from="(3790,2050)" to="(3800,2050)"/>
     <wire from="(3800,2910)" to="(3800,3650)"/>
-    <wire from="(3800,3650)" to="(3800,3660)"/>
+    <wire from="(3800,3650)" to="(3800,3670)"/>
     <wire from="(3800,3650)" to="(4360,3650)"/>
-    <wire from="(3800,3690)" to="(3800,3780)"/>
-    <wire from="(3800,3780)" to="(3810,3780)"/>
     <wire from="(3810,2260)" to="(3810,2270)"/>
-    <wire from="(3810,3780)" to="(3810,3830)"/>
+    <wire from="(3810,3800)" to="(3810,3830)"/>
+    <wire from="(3810,3800)" to="(3830,3800)"/>
     <wire from="(3820,3840)" to="(4400,3840)"/>
+    <wire from="(3830,3670)" to="(3830,3800)"/>
     <wire from="(3840,2280)" to="(3840,3390)"/>
     <wire from="(3850,2070)" to="(3930,2070)"/>
     <wire from="(3860,3790)" to="(3870,3790)"/>
@@ -1320,9 +1314,7 @@
     <wire from="(4360,3570)" to="(4390,3570)"/>
     <wire from="(4360,3630)" to="(4820,3630)"/>
     <wire from="(4360,3650)" to="(4360,3740)"/>
-    <wire from="(4360,3740)" to="(4360,3800)"/>
     <wire from="(4360,3740)" to="(4700,3740)"/>
-    <wire from="(4360,3800)" to="(4390,3800)"/>
     <wire from="(4370,3380)" to="(4370,3540)"/>
     <wire from="(4380,3320)" to="(4380,3540)"/>
     <wire from="(4390,3260)" to="(4390,3540)"/>
@@ -1330,8 +1322,7 @@
     <wire from="(4400,3580)" to="(4400,3610)"/>
     <wire from="(4400,3610)" to="(4400,3660)"/>
     <wire from="(4400,3610)" to="(4550,3610)"/>
-    <wire from="(4400,3660)" to="(4400,3790)"/>
-    <wire from="(4400,3810)" to="(4400,3840)"/>
+    <wire from="(4400,3660)" to="(4400,3840)"/>
     <wire from="(4400,3840)" to="(5030,3840)"/>
     <wire from="(4410,1690)" to="(4410,2110)"/>
     <wire from="(4410,1690)" to="(4540,1690)"/>
@@ -1492,10 +1483,10 @@
     <comp lib="4" loc="(4860,2100)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="4" loc="(4860,2100)" name="D Flip-Flop">
+    <comp lib="4" loc="(4870,2110)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="4" loc="(4870,2110)" name="D Flip-Flop">
+    <comp lib="4" loc="(4880,2120)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <comp loc="(600,210)" name="main"/>
