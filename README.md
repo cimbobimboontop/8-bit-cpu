@@ -9,7 +9,7 @@ This is my personal project to design a simple 8-bit CPU from scratch using [Log
 - 🛠️ **In-progress 8-bit ALU** (partially wired)
   - [x] Designed **Adder/Subtractor**
   - [x] Designed **Logic Unit** (AND, OR, NOT)
-  - [ ] Not fully functional yet (debugging stage)
+  - [x] Functional as it is (debugging stage)
 - ✅ Basic **gates** and wiring
 - 🧪 Initial **register** experiments
 - 🔜 Program Counter, Instruction Decoder
