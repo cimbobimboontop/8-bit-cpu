@@ -6,14 +6,13 @@ This is my personal project to design a simple 8-bit CPU from scratch using [Log
 
 ## 🔧 Features (so far)
 
-- 🛠️ **In-progress 8-bit ALU** (partially wired)
-  - [x] Designed **Adder/Subtractor**
-  - [x] Designed **Logic Unit** (AND, OR, NOT)
-  - [x] Functional as it is (debugging stage)
-  - [x] First version of register file (fully functioning)
+- 🛠️ **In-progress**
+- ✅ 8-bit ALU (Debugging stage)
+- ✅ First version of register file (fully functioning)
 - ✅ Basic **gates** and wiring
+- ✅ Program Counter
 - 🧪 Initial **register** experiments
-- 🔜 Program Counter, Instruction Decoder
+- 🔜 Program Instruction Decoder
 - 🔜 RAM / ROM integration
 - 🔜 Control Unit & microprogramming
 
