@@ -831,8 +831,8 @@
     <wire from="(1110,530)" to="(1110,600)"/>
     <wire from="(1110,530)" to="(1150,530)"/>
     <wire from="(1110,600)" to="(1530,600)"/>
-    <wire from="(1120,370)" to="(1120,410)"/>
-    <wire from="(1120,370)" to="(2040,370)"/>
+    <wire from="(1120,400)" to="(1120,410)"/>
+    <wire from="(1120,400)" to="(2110,400)"/>
     <wire from="(1120,410)" to="(1150,410)"/>
     <wire from="(1150,440)" to="(1150,450)"/>
     <wire from="(1190,280)" to="(1260,280)"/>
@@ -890,19 +890,19 @@
     <wire from="(2020,230)" to="(2060,230)"/>
     <wire from="(2020,250)" to="(2070,250)"/>
     <wire from="(2020,270)" to="(2080,270)"/>
-    <wire from="(2020,290)" to="(2040,290)"/>
+    <wire from="(2020,290)" to="(2110,290)"/>
     <wire from="(2020,310)" to="(2150,310)"/>
     <wire from="(2020,330)" to="(2140,330)"/>
     <wire from="(2030,140)" to="(2030,150)"/>
     <wire from="(2030,140)" to="(2220,140)"/>
     <wire from="(2030,90)" to="(2030,140)"/>
     <wire from="(2040,100)" to="(2040,210)"/>
-    <wire from="(2040,290)" to="(2040,370)"/>
     <wire from="(2060,120)" to="(2060,230)"/>
     <wire from="(2060,230)" to="(2100,230)"/>
     <wire from="(2070,110)" to="(2070,250)"/>
     <wire from="(2080,80)" to="(2080,270)"/>
     <wire from="(2100,70)" to="(2100,230)"/>
+    <wire from="(2110,290)" to="(2110,400)"/>
     <wire from="(2140,330)" to="(2140,730)"/>
     <wire from="(2150,310)" to="(2150,740)"/>
     <wire from="(2220,140)" to="(2220,430)"/>
@@ -3842,6 +3842,18 @@
       <a name="label" val="Aluflag_010"/>
       <a name="output" val="true"/>
     </comp>
+    <comp lib="0" loc="(1790,1240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="INC"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1790,1260)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="DEC"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="0" loc="(1940,740)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -3888,12 +3900,17 @@
     <wire from="(1620,1150)" to="(1740,1150)"/>
     <wire from="(1620,1170)" to="(1750,1170)"/>
     <wire from="(1620,1190)" to="(1750,1190)"/>
-    <wire from="(1620,1210)" to="(1750,1210)"/>
+    <wire from="(1620,1210)" to="(1790,1210)"/>
+    <wire from="(1620,1230)" to="(1750,1230)"/>
+    <wire from="(1620,1250)" to="(1770,1250)"/>
     <wire from="(1650,940)" to="(1800,940)"/>
     <wire from="(1680,1030)" to="(1680,1110)"/>
     <wire from="(1680,1030)" to="(1740,1030)"/>
     <wire from="(1690,1070)" to="(1690,1130)"/>
     <wire from="(1690,1070)" to="(1960,1070)"/>
+    <wire from="(1770,1250)" to="(1770,1260)"/>
+    <wire from="(1770,1260)" to="(1790,1260)"/>
+    <wire from="(1790,1210)" to="(1790,1240)"/>
     <wire from="(1810,1000)" to="(1960,1000)"/>
     <wire from="(1810,970)" to="(1810,980)"/>
     <wire from="(1810,980)" to="(1810,1000)"/>
@@ -4371,6 +4388,18 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
+    <comp lib="0" loc="(770,660)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Inkrementuj"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(770,740)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Dekrementuj"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="1" loc="(1340,160)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
@@ -4449,9 +4478,11 @@
     </comp>
     <comp lib="1" loc="(620,660)" name="AND Gate">
       <a name="inputs" val="4"/>
+      <a name="label" val="INC"/>
     </comp>
     <comp lib="1" loc="(620,740)" name="AND Gate">
       <a name="inputs" val="4"/>
+      <a name="label" val="DEC"/>
     </comp>
     <comp lib="1" loc="(620,820)" name="AND Gate">
       <a name="inputs" val="4"/>
