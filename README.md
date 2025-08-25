@@ -12,9 +12,10 @@ This is my personal project to design a simple 8-bit CPU from scratch using [Log
 - ✅ Basic **gates** and wiring
 - ✅ Program Counter
 - 🧪 Initial **register** experiments
-- 🔜 Program Instruction Decoder
-- 🔜 RAM / ROM integration
-- 🔜 Control Unit & microprogramming
+- ✅ Program Instruction Decoder
+- 🔜 RAM 
+- ✅ ROM integration
+- 🧪 Control Unit & microprogramming
 
 ---
 
